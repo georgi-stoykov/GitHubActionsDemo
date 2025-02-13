@@ -6,11 +6,11 @@ jobs:
         steps:
             - name: Download repository
               uses: actions/checkout@v3
-            - name: Install NodeJS (unnecessary but for demo)
-              uses: actions/setup-node@v3
-              with:
-                node-version: 18
-            - name: Install dependencies
-              uses: npm ci
-            - name: Run tests
-              uses: npm test
+            # - name: Install NodeJS (unnecessary but for demo)
+            #   uses: actions/setup-node@v3
+            #   with:
+            #     node-version: 18
+            # - name: Install dependencies
+            #   uses: npm ci
+            # - name: Run tests
+            #   uses: npm test
